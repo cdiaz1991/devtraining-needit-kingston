@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="User" max_length="40" name="imp_user" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="roles" max_length="40" name="u_roles" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="time_zone" max_length="40" name="u_time_zone" type="string"/>
+    </element>
+</database>
